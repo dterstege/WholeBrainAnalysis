@@ -53,7 +53,11 @@ The final, the *Custom User Atlas* can be modified to best suit the desired leve
 
 During this process, data will be loaded into the MATLAB structure element 'WB' for later use.  This step in the analysis is reasonably hands-on and requires the user to point the script to several directories and input individual animal IDs. The results of this data loading can be found under the 'inputs' element within 'WB'.
 
-There are several variables within this section which should be adjusted for each new experiment.  Please carefully read the documentation before starting this 
+There are several variables within this section which should be adjusted for each new experiment.  Please carefully read the documentation within the MATLAB file before starting this
+
+**INPUTS**
+- "cells.csv" files: these files should contain the number of segmented LABELS per region.  This is the raw WholeBrain output from the input image with your label of interest.
+- "grids.csv" files: these files shoudl contain the number of segmented POINTS per region.  This is a raw WholeBrain output from the input image obtained using the [Cavalier Point Mask plugin](https://github.com/dterstege/CavalieriPointMask).
 
 <a name="dens"/>
 
