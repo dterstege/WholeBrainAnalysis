@@ -66,6 +66,14 @@ If you find WholeBrainAnalysis.m to be useful, and apply it in your research, pl
 
 TEMP
 
+Additionally, resources from the following were also used during the development of this tool:
+
+**Brain Connectivity Toolbox**
+- Rubinov, M. & Sporns, O. (2010) Complex network measures of brain connectivity: Uses and interpretations. NeuroImage. 52(3), 1059-1069.
+
+**fdr_bh.m**
+- Benjamini, Y. & Hochberg, Y. (1995) Controlling the false discovery rate: A practical and powerful approach to multiple testing. Journal of the Royal Statistical Society, Series B (Methodological). 57(1), 289-300.
+
 
 <a name="contact"/>
 
