@@ -22,9 +22,10 @@ WholeBrainAnalysis.m was created by Dylan Terstege, a Neuroscience PhD candidate
 | [0. Requirements](#req)   | What is required for running WholeBrainAnalysis.m.  |
 | [1. Section 1: Initialization](#init)   | Basic data loading  |
 | [2. Section 2: Regional Label Density](#dens)  | Compile data for regional density analysis  |
-| [3. Section 3: Basic Network Analyses](#basic) | Very basic network analyses (more to be added soon...) |
-| [4. Citation](#cite) | How to cite WholeBrainAnalysis.m |
-| [5. Contact Us](#contact)  | Where to reach us with questions  |
+| [3. Section 3: Basic Network Analyses](#basic) | Very basic network analyses (more to come) |
+| [4. Sections X & Y: Saving and Loading Data](#save) | information on how to save and load data structures |
+| [5. Citation](#cite) | How to cite WholeBrainAnalysis.m |
+| [6. Contact Us](#contact)  | Where to reach us with questions  |
 
 <a name="req"/>
 
@@ -48,7 +49,11 @@ The final, the *Custom User Atlas* can be modified to best suit the desired leve
 
 ## 1. Section 1: Initialization
 
-temp
+**WholeBrainAnalysis.m runs best using section-by-section processing. It is recommended that the user uses the 'run section' command to individually run each section**
+
+During this process, data will be loaded into the MATLAB structure element 'WB' for later use.  This step in the analysis is reasonably hands-on and requires the user to point the script to several directories and input individual animal IDs. The results of this data loading can be found under the 'inputs' element within 'WB'.
+
+There are several variables within this section which should be adjusted for each new experiment.  Please carefully read the documentation before starting this 
 
 <a name="dens"/>
 
@@ -62,9 +67,15 @@ temp
 
 temp
 
+<a name="save"/>
+
+## 4. Sections X & Y : Saving and Loading Data
+
+temp
+
 <a name="cite"/>
 
-## 4. Citation
+## 5. Citation
 
 If you find WholeBrainAnalysis.m to be useful, and apply it in your research, please cite the following article outlining this flexible open-source atlas registration tool:
 
@@ -81,7 +92,7 @@ Additionally, resources from the following were also used during the development
 
 <a name="contact"/>
 
-## 5. Contact Us
+## 6. Contact Us
 
 **Contributors:**
 - **Dylan Terstege** (code/tool conceptualization/written documentation)
