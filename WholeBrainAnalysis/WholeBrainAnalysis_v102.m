@@ -386,7 +386,7 @@ disp('Process 3. Basic Network Analyses Complete');
 %%  X. Save Structure to .mat File
 %keep file for easy data access later
 
-save('WB_process3_smallnets.mat','-struct','WB');
+save('WB.mat','-struct','WB');
 
 disp('Process X. Save Structure to a .mat File Complete');
 
