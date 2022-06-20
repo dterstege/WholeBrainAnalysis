@@ -1,3 +1,3 @@
 ## Custom User Atlas
 
-Here, custom user atlases have been provided
+Custom user atlases have been provided
