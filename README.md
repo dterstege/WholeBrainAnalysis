@@ -57,13 +57,19 @@ There are several variables within this section which should be adjusted for eac
 
 **INPUTS**
 - "cells.csv" files: these files should contain the number of segmented LABELS per region.  This is the raw WholeBrain output from the input image with your label of interest.
-- "grids.csv" files: these files shoudl contain the number of segmented POINTS per region.  This is a raw WholeBrain output from the input image obtained using the [Cavalier Point Mask plugin](https://github.com/dterstege/CavalieriPointMask).
+- "grids.csv" files: these files should contain the number of segmented POINTS per region.  This is a raw WholeBrain output from the input image obtained using the [Cavalier Point Mask plugin](https://github.com/dterstege/CavalieriPointMask).
 
 <a name="dens"/>
 
 ## 2. Section 2: Regional Label Density
 
-temp
+During this process, the density of the segmented label will be calculated using a user-defined atlas organization.  This process is completely hands-off once the atlas has been created and added to the path. Its name should be inputted in the script in place of the default atlas (lines 178, 179, and 180).
+
+**OUTPUTS**
+Regional density outputs will be located in the 'outputs' element within 'WB'.  These outputs will include:
+- Total region area
+- Total number of segmented labels per area
+- Density of the number of segmented labels per unit area
 
 <a name="basic"/>
 
