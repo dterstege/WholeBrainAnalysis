@@ -1,7 +1,6 @@
 # IEGNetworkAnalyses
 
-**------------------WholeBrainAnalysis.m-----------------------**
-
+## WholeBrainAnalysis.m
 
 *WholebrainAnalysis.m* was developed for the compilation and analysis of datasets collected using the Whole Brain software suite developed by Daniel Fürth (https://www.wholebrainsoftware.org) and incorporates a modification using scripts and plugins developed by Dylan Terstege (https://github.com/dterstege/CavalieriPointMask).
 
@@ -21,9 +20,9 @@ Details about each update will be added here as analyses are added to the packag
 | Section  | Description | 
 | ------------- | ------------- | 
 | [0. Requirements](#req)   | What is required for running WholeBrainAnalysis.m.  |
-| [1. Section 1: Initialization](#init)   | How to process a sample image set  |
-| [2. Section 2: Regional Label Density](#dens)  | How to build your own atlas plates for custom projects  |
-| [3. Section 3: Basic Network Analyses](#basic) | Potential complications and how to overcome them |
+| [1. Section 1: Initialization](#init)   | Basic data loading  |
+| [2. Section 2: Regional Label Density](#dens)  | Compile data for regional density analysis  |
+| [3. Section 3: Basic Network Analyses](#basic) | Very basic network analyses (more to be added soon...) |
 | [4. Citation](#cite) | How to cite WholeBrainAnalysis.m |
 | [5. Contact Us](#contact)  | Where to reach us with questions  |
 
