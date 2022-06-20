@@ -35,9 +35,14 @@ Firstly, WholeBrainAnalysis.m was written from MATLAB.  Development utilized MAT
 There are several required packages which are utilized by WholeBrainAnalysis.m.  Thankfully, these packages can easily be obtained without any convoluted installation process and just need to be accessible by MATLAB.  It is preferable to have a MATLAB path folder somewhere on your system so that you don't need to copy and paste these files every time that you want to run this analysis in a new directory.
 
 **Required packages:**
-- test
-- test
-- test
+- [Brain Connectivity Toolbox](https://sites.google.com/site/bctnet/)
+- [Benjamani & Hochberg False Discovery Rate](https://www.mathworks.com/matlabcentral/fileexchange/27418-fdr_bh)
+- [Full WholeBrain Atlas](temp)
+- [Custom User Atlas](temp)
+
+The first three of these files should remain static and not be changed from their downloaded state.
+
+The final, the *Custom User Atlas* can be modified to best suit the desired level of analysis.
 
 <a name="init"/>
 
@@ -67,7 +72,7 @@ TEMP
 ## 5. Contact Us
 
 **Contributors:**
-- **Dylan Terstege*** (code/tool conceptualization/written documentation)
+- **Dylan Terstege** (code/tool conceptualization/written documentation)
     - ![twitter-icon_16x16](https://user-images.githubusercontent.com/44174532/113163958-e3d3e400-91fd-11eb-8d79-17906d8d3f25.png)[@dterstege](https://twitter.com/dterstege) - ![Mail](https://user-images.githubusercontent.com/44174532/113164412-50e77980-91fe-11eb-9282-dd83852578ce.png)
 <dylan.terstege@ucalgary.ca>
 
@@ -75,7 +80,4 @@ Principal Investigator:
 - Jonathan Epp (tool conceptualization) 
     - https://epplab.com
 
-<sub><sup>***corresponding author**</sup></sub>
 
-
-temp
