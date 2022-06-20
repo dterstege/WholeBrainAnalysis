@@ -1,8 +1,8 @@
 # IEGNetworkAnalyses
 
-**WholeBrainAnalysis.m
+**WholeBrainAnalysis.m**
 
-**CURRENT VERSION: v1.0.2
+**CURRENT VERSION: v1.0.2**
 
 *WholebrainAnalysis.m* was developed for the compilation and analysis of datasets collected using the Whole Brain software suite developed by Daniel Fürth (https://www.wholebrainsoftware.org) and incorporates a modification using scripts and plugins developed by Dylan Terstege (https://github.com/dterstege/CavalieriPointMask).
 
