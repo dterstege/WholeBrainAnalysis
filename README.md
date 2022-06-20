@@ -2,15 +2,19 @@
 
 **WholeBrainAnalysis.m**
 
-**Current Version: v1.0.2**
 
 *WholebrainAnalysis.m* was developed for the compilation and analysis of datasets collected using the Whole Brain software suite developed by Daniel Fürth (https://www.wholebrainsoftware.org) and incorporates a modification using scripts and plugins developed by Dylan Terstege (https://github.com/dterstege/CavalieriPointMask).
 
 Whole Brain is a neuroanatomical information system. Neuroanatomical data obtained from microscope images is encoded and stored in stereotactic coordinate form within the Allen Mouse Brain Atlas. The software suite can be accessed [here](https://www.wholebrainsoftware.com).
 
-
-
 WholeBrainAnalysis.m was created by Dylan Terstege, a Neuroscience PhD candidate in the Epp Lab at the University of Calgary.
+
+
+**Current Version: v1.0.2**
+
+**New to this version:**
+
+Details about each update will be added here as analyses are added to the package.  Be sure to keep checking back to stay up to date.
 
 ## Table of Contents
 
