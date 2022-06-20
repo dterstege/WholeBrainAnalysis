@@ -1,4 +1,4 @@
-# IEGNetworkAnalyses
+# Whole Brain Analysis
 
 ## WholeBrainAnalysis.m
 
