@@ -42,7 +42,7 @@ There are several required packages which are utilized by WholeBrainAnalysis.m. 
 
 The first three of these files should remain static and not be changed from their downloaded state.
 
-The final, the *Custom User Atlas* can be modified to best suit the desired level of analysis.
+The final, the *Custom User Atlas* can be modified to best suit the desired level of analysis.  To do this, simply modify the provided user atlas with your desired regional organization. The organization of the columns (from left to right) are region ID, starting row, and end row.  These row numbers correspond with the row numbers from the Full WholeBrain Atlas file.
 
 <a name="init"/>
 
