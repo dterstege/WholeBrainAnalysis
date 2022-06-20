@@ -13,7 +13,7 @@ WholeBrainAnalysis.m was created by Dylan Terstege, a Neuroscience PhD candidate
 
 **New to this version:**
 
-Details about each update will be added here as analyses are added to the package.  Be sure to keep checking back to stay up to date.
+*Details about each update will be added here as analyses are added to the package.  Be sure to keep checking back to stay up to date.*
 
 ## Table of Contents
 
