@@ -38,7 +38,7 @@ There are several required packages which are utilized by WholeBrainAnalysis.m. 
 - [Brain Connectivity Toolbox](https://sites.google.com/site/bctnet/)
 - [Benjamani & Hochberg False Discovery Rate](https://www.mathworks.com/matlabcentral/fileexchange/27418-fdr_bh)
 - [Full WholeBrain Atlas](https://github.com/dterstege/IEGNetworkAnalyses/tree/main/requirements)
-- [Custom User Atlas](temp)
+- [Custom User Atlas](https://github.com/dterstege/IEGNetworkAnalyses/tree/main/requirements/UserAtlas)
 
 The first three of these files should remain static and not be changed from their downloaded state.
 
