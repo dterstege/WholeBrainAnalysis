@@ -60,11 +60,15 @@ temp
 
 ## 3. Section 3: Basic Network Analyses
 
+temp
+
+<a name="cite"/>
+
 ## 4. Citation
 
 If you find WholeBrainAnalysis.m to be useful, and apply it in your research, please cite the following article outlining this flexible open-source atlas registration tool:
 
-TEMP
+**TEMP**
 
 Additionally, resources from the following were also used during the development of this tool:
 
