@@ -2,7 +2,7 @@
 
 ## WholeBrainAnalysis.m
 
-*WholebrainAnalysis.m* was developed for the compilation and analysis of datasets collected using the Whole Brain software suite developed by Daniel Fürth (https://www.wholebrainsoftware.org) and incorporates a modification using scripts and plugins developed by Dylan Terstege (https://github.com/dterstege/CavalieriPointMask).
+*WholebrainAnalysis.m* was developed for the compilation and analysis of brain-wide immediate early gene expression datasets.  These data were collected using the Whole Brain software suite developed by Daniel Fürth (https://www.wholebrainsoftware.org) and incorporates a modification using scripts and plugins developed by Dylan Terstege (https://github.com/dterstege/CavalieriPointMask).
 
 Whole Brain is a neuroanatomical information system. Neuroanatomical data obtained from microscope images is encoded and stored in stereotactic coordinate form within the Allen Mouse Brain Atlas. The software suite can be accessed [here](https://www.wholebrainsoftware.com).
 
