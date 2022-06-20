@@ -30,7 +30,14 @@ Details about each update will be added here as analyses are added to the packag
 
 ## 0. Requirements
 
-temp
+Firstly, WholeBrainAnalysis.m was written from MATLAB.  Development utilized MATLAB R2020a.  If version-related errors should arise, please don't hesitate to contact [Dylan](#contact) for assistance.
+
+There are several required packages which are utilized by WholeBrainAnalysis.m.  Thankfully, these packages can easily be obtained without any convoluted installation process and just need to be accessible by MATLAB.  It is preferable to have a MATLAB path folder somewhere on your system so that you don't need to copy and paste these files every time that you want to run this analysis in a new directory.
+
+**Required packages:**
+- test
+- test
+- test
 
 <a name="init"/>
 
