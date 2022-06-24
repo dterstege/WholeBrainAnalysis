@@ -258,7 +258,6 @@ disp('Process 2. Regional Label Density Complete');
 for ii=1:WB.info.groupnum(1)
     %load files
     dens=WB.outputs.(WB.info.groups(ii)).density;
-    dens(isnan(dens))=0;
     [cormat,pVal]=corr(dens','Type','Pearson'); %pearson pairwise correlation coefficient
     cormat(isnan(cormat))=0;
     
