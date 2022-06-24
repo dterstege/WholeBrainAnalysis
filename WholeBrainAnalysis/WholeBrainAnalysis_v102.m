@@ -283,14 +283,14 @@ for ii=1:WB.info.groupnum(1)
     
     %mean R
     tempmat=cormat;
-    tempmat(pVal<=(WB.info.networks.threshold.pthresh))=NaN;
+    tempmat(pVal>=(WB.info.networks.threshold.pthresh))=NaN;
     fdr=fdr_bh(pVal,WB.info.networks.threshold.fdrthresh);
     cormat(fdr==0)=NaN;
     WB.outputs.(WB.info.groups(ii)).networks.meanR=(mean(tempmat,'omitnan'))';
     
     %number of negative correlations
     s=sign(tempmat);
-    s(pVal<=(WB.info.networks.threshold.pthresh))=NaN;
+    s(pVal>=(WB.info.networks.threshold.pthresh))=NaN;
     fdr=fdr_bh(pVal,WB.info.networks.threshold.fdrthresh);
     cormat(fdr==0)=NaN;
     neg=sum(s==-1,'omitnan')';
